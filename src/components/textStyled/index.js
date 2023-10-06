@@ -1,7 +1,7 @@
-import React from "react"
-import "./transform.css"
+import React from "react";
+import "../textStyled/index.css"
 
-const Transform = ({text, color}) => {
+let TextStyled = ({text, color}) => {
     return (
         <div className="text" style={{color: color, textTransform: "uppercase"}}>
             <p>{text}</p>
@@ -9,4 +9,4 @@ const Transform = ({text, color}) => {
     )
 }
 
-export default Transform;
+export default TextStyled;
