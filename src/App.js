@@ -1,5 +1,5 @@
 import Transform from "./components/transform/transform";
-import Button from "./components/button/button"
+import Button from "./components/alertButton/alertButton"
 
 function App() {
   return (
